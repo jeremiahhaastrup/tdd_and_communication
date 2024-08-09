@@ -18,7 +18,7 @@ class CaesarCipherTest {
 
         String newNorthcoders = cipher.calculateCipher(northcoders);
         String newGibberish = cipher.calculateCipher(gibberish);
-        String newSentence = cipher.calculateCipher(northcoders);
+        String newSentence = cipher.calculateCipher(sentence);
 
         assertAll(
                 () -> assertEquals("abegupbqref", newNorthcoders),
